@@ -29,7 +29,6 @@ html {
 
   &__content {
     max-width: 70rem;
-    max-height: 40rem;
     min-width: 25rem;
     min-height: 30rem;
     background-color: #130f40b6;
@@ -47,6 +46,7 @@ html {
     &--title {
       font-size: calc(1rem + 1vw);
       border-bottom: 1px solid #dff9fb;
+      margin-bottom: 10%;
     }
 
     &--joke {
@@ -62,6 +62,7 @@ html {
       font-weight: 600;
       padding: 10px 15px;
       border-radius: 8px;
+      margin-top: 10%;
       cursor: pointer;
       outline: none;
       transition: 0.3s;
